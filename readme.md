@@ -112,6 +112,18 @@
 
 <br/>
 
+#### 将本地分支与远程分支关联
+
+> `git branch --set-upstream-to 分支名 origin/分支名` 
+
+<br/>
+
+#### 将本地分支与远程分支关联并切换至该分支
+
+> `git checkout -b 分支名 origin/分支名`
+
+<br/>
+
 #### 将本地分支提交到远程仓库
 
 > `git push --set-upstream origin 分支名` 
