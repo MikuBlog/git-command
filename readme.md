@@ -183,9 +183,21 @@
 
 <br/>
 
-#### 删除版本号
+#### 推送版本号至远程主机
+
+> `git push origin v版本号` (如`git push origin v1.0`)
+
+<br/>
+
+#### 删除本地版本号
 
 > `git tag -d v版本号` (如`git tag -d v1.0`)
+
+<br/>
+
+#### 删除远程主机版本号
+
+> `git push origin :refs/tags/v版本号` (如`git push origin v1.0`)
 
 <br/>
 
