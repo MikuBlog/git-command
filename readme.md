@@ -114,7 +114,7 @@
 
 #### 将本地分支与远程分支关联
 
-> `git branch --set-upstream-to 分支名 origin/分支名` 
+> `git branch --set-upstream-to=origin/分支名 分支名` 
 
 <br/>
 
